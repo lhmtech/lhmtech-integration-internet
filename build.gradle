@@ -44,11 +44,9 @@ dependencies {
     compile("org.codehaus.groovy:groovy-all:2.4.7")
     compile("ch.qos.logback:logback-classic:1.1.7")
     compile("org.apache.httpcomponents:httpcore:4.4")
+    compile("com.lhmtech.common:common-system:1.0.2")
+    compile("org.codehaus.groovy.modules.http-builder:http-builder:0.7.1")
 
-    testCompile("org.springframework.boot:spring-boot-starter-ws:${springBootVersion}")
-    testCompile("org.springframework.boot:spring-boot-starter-test:${springBootVersion}")
-    testCompile("org.spockframework:spock-core:1.0-groovy-2.4")
-    testCompile("org.spockframework:spock-spring:1.0-groovy-2.4")
 }
 
 
